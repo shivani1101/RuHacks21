@@ -1,0 +1,77 @@
+html {
+    margin-top: 1%;
+    margin-bottom: 3%;
+    margin-left: 3%;
+    margin-right: 3%;
+}
+
+.results-map{
+    display: -webkit-box;
+    align-items: center;
+}
+
+.title-logo, .page-header{
+    display: inline-flex;
+    -webkit-box-shadow: 0 8px 6px -6px rgb(155, 155, 155);
+	-moz-box-shadow: 0 8px 6px -6px rgb(155, 155, 155);
+	box-shadow: 0 8px 6px -6px rgb(155, 155, 155);
+    width: 100%;
+}
+.logo {
+    margin-top: 0.5%;
+    height: 70px;
+}
+.title {
+    padding-left: 2%;
+    text-align:left;
+    color: #3C9F3A;
+    font-weight: 500;
+}
+
+.add-funds-btn, .contacts-btn, button.MuiButton-root {
+    float: right;
+    margin-right: 3%;
+    margin-top: 1%;
+    height: 50px;
+}
+
+.search-column {
+    margin-top: 2%;
+    width: 25%;
+    background-color: rgb(209, 209, 209);
+    height: 750px;
+    display: block;
+    align-items: center;
+    flex-grow: 1;
+    border-radius: 7px;
+    padding-top: 3%;
+    padding-bottom: 3%;
+    overflow-y: scroll;
+    padding-left: 7%;
+    
+}
+
+.MuiCard-root {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    width: 75%;
+    align-self: center;
+    text-align: center;
+}
+
+.google-map {
+    margin-left: auto;
+    margin-right: auto;
+    display: table;
+    border-radius: 7px;
+}
+
+.search-bar {
+    width: 85%;
+    align-self: center;
+    margin-top: -5%;
+    margin-bottom: 5%;
+    background-color: #3C9F3A;
+}

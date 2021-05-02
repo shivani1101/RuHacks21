@@ -1,4 +1,4 @@
-import logo from './logo.svg';
+import logo from './logo.png';
 import './App.css';
 import React, { useContext, useEffect } from 'react';
 import {
@@ -7,6 +7,7 @@ import {
     Switch,
 } from 'react-router-dom';
 import LoginPage from './components/login-page';
+import DashboardPage from './components/dashboard-page';
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
     <Router>
       <Switch>
         <Route exact path="/login" component={LoginPage} />
+        <Route exact path="/dashboard" component={DashboardPage} />
       </Switch>
       
     </Router>

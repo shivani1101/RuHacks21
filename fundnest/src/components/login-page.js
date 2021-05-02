@@ -12,6 +12,10 @@ function LoginPage() {
         let success = true;
         let errMsg = '';
 
+        /** Handle login submission.
+         *
+         * @param {*} event - the submit event
+         */
         event.preventDefault();
 
         // Ensure email and password are not empty strings
@@ -68,7 +72,7 @@ function LoginPage() {
                         Log In
                     </Button>
                 </div>
-                <Link to="/create-account">Create Account</Link>
+                {/* <Link to="/create-account">Create Account</Link> */}
             </form>
         </div>
     );
