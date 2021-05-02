@@ -233,7 +233,7 @@ const BusinessAccountPage = () => {
                           Location: {company.location}
                         </Typography>
                         <Typography color="textSecondary" gutterBottom>
-                          Prinicpal Funding Needed: {company.fund}
+                          Maximum Investment Fund: {company.fund}
                         </Typography>
                       </CardContent>
                     </Card>

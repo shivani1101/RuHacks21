@@ -20,7 +20,7 @@ const Popup = ({ props, division }) => {
         </Typography>
         <Typography style={{ color: "black" }} gutterBottom>
           {division === "Business"
-            ? "Prinicpal Funding Needed: "
+            ? "Maximum Investment Fund: "
             : "Prinicpal Funding: "}{" "}
           {props.fund}
         </Typography>
