@@ -1,6 +1,5 @@
 # FundNest
 ### RuHacks21
-![yyz](nestfundimg.png)
 
 ## Problem/Need
 A lack of connections between emerging businesses and investors seeking new investment opportunities. Start-ups, small businesses, and entrepreneurs continuously face difficulty securing funding to finance their business operations and new ideas. The issue is the same for the investing parties, investors do not have the ability to readily browse all the options available for various business investments when they are interested in committing funds. Business entities are uncertain of which investors are interested in funding their operations, whereas investors are forgoing many big and small investment opportunities due to unrecognized fund demand. 
@@ -18,6 +17,12 @@ By matching entrepreneurs to investors, FundNest promotes the growth of early-st
 ## Implementation of FundNest
 Using ***ReactJS*** as the front-end framework along with the ***MaterialUI*** library, FundNest is an easy to use UI for investors and companies seeking funding. To showcase nearby investors for a company, a version of Google Maps is used with the help of ***Google Maps API***. Additonally, markers on the map correspond with the search results presented to the user which are fetched from a **JSON** that currently stores all "investors" for this early-stage software. 
 
+## What we Learnt
+- Creating a UI/UX prototype for a web app using Figma. 
+- Connecting existing data in Json to Google Maps API.
+- Incorporating Dynamic UI fixes to the Google Maps in React JS. 
+- Locally storing and creating fake data using random generated profiles and incorporating into the React flow for an easy fetch. 
+- Routing and connecting different pages to create a complete web app in React JS
 
 ## How to Start the Webapp
 ```bash
