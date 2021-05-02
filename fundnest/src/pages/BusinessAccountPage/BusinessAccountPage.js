@@ -25,6 +25,13 @@ import { fade, makeStyles } from "@material-ui/core/styles";
 import Logo from "../../assets/Logo.png";
 import Popup from "../../components/Popup";
 import "./BusinessAccountPage.css";
+import Dialog from '@material-ui/core/Dialog';
+import DialogActions from '@material-ui/core/DialogActions';
+import DialogContent from '@material-ui/core/DialogContent';
+import DialogContentText from '@material-ui/core/DialogContentText';
+import DialogTitle from '@material-ui/core/DialogTitle';
+import CurrencyTextField from '@unicef/material-ui-currency-textfield'
+import { Link } from "react-router-dom";
 
 const useStyles = makeStyles((theme) => ({
   search: {
@@ -106,6 +113,34 @@ const BusinessAccountPage = () => {
     lng: -79.3832,
   };
 
+  const numberFormatter = new Intl.NumberFormat('en-US', {
+    style: 'currency',
+    currency: 'USD'
+  });
+
+  var fundsSecured = "25100";
+
+  const [open, setOpen] = React.useState(false);
+  const [value, setValue] = useState();
+  const [totalFunds, setTotalFunds] = useState(fundsSecured);
+
+  const handleClickOpen = () => {
+    setOpen(true);
+  };
+
+  const handleAddFunds = () => {
+    let temp = parseFloat(totalFunds)+parseFloat(value);
+    setTotalFunds(temp);
+  }
+
+  const clearFunds = () => {
+    setValue('');
+  }
+
+  const handleClose = () => {
+    setOpen(false);
+  };
+
   return (
     <>
       <div>
@@ -118,16 +153,50 @@ const BusinessAccountPage = () => {
                   <img src={Logo} alt="Company Logo" />
                 </div>
                 <div className="header-button">
-                  <Button className="contacts-button">Contacts</Button>
-                  <Button className="addfunds-button">Add Funds</Button>
-                  <IconButton>
-                    <ExitToAppOutlined />
-                  </IconButton>
+                  <Button className="contacts-button" >Contacts</Button>
+                  <Button className="addfunds-button" onClick={handleClickOpen}>Add Funds</Button>
+                  <Link style={{ textDecoration: "none" }} to="/">
+                    <IconButton>
+                      <ExitToAppOutlined />
+                    </IconButton>
+                  </Link>
+                  
                 </div>
               </div>
             </Toolbar>
           </AppBar>
         </>
+
+        {/* add funds pop up window code below */}
+        <div>
+      
+      <Dialog open={open} onClose={handleClose} aria-labelledby="form-dialog-title">
+        <DialogTitle id="form-dialog-title">Add Funds to Your Business</DialogTitle>
+        <DialogContent>
+          <DialogContentText>
+            Enter the amount of funds to add to your Funds Secured.
+          </DialogContentText>
+          <CurrencyTextField
+              label="Amount"
+              variant="standard"
+              value={value}
+              currencySymbol="$"
+              outputFormat="string"
+              onChange={(event,value)=> setValue(value)}
+          />
+        </DialogContent>
+        <DialogActions>
+          <Button onClick={handleClose} color="primary">
+            Cancel
+          </Button>
+          <Button onClick={() => {handleClose(); handleAddFunds(); clearFunds();}} color="primary">
+            Submit
+          </Button>
+        </DialogActions>
+      </Dialog>
+    </div>
+
+
         <div className="businesspage-main">
           <div style={{ overflowY: "scroll", maxHeight: "100vh" }}>
             <div className={classes.search}>
@@ -135,7 +204,7 @@ const BusinessAccountPage = () => {
                 <Search />
               </div>
               <InputBase
-                placeholder="Search Companies"
+                placeholder="Search Investors"
                 classes={{
                   root: classes.inputRoot,
                   input: classes.inputInput,
@@ -188,7 +257,7 @@ const BusinessAccountPage = () => {
                 </span>{" "}
                 | FUNDS SECURED:{" "}
                 <span style={{ color: "#ffff", fontWeight: "500" }}>
-                  $25,100.00
+                  {numberFormatter.format(totalFunds)}
                 </span>
               </p>
             </div>
