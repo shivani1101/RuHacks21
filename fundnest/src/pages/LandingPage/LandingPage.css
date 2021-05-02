@@ -3,6 +3,11 @@
     grid-template-columns: 2fr 1fr;
 }
 
+h1, h2, h3, p, span {
+    font-family: Verdana, Geneva, Tahoma, sans-serif !important; 
+    font-weight: 400;
+}
+
 .landingpage-second{
     background-color: #E4E4E4;
     height: 100vh;

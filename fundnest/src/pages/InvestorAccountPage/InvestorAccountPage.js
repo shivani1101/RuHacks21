@@ -24,6 +24,7 @@ import {
 import { fade, makeStyles } from "@material-ui/core/styles";
 import Logo from "../../assets/Logo.png";
 import Popup from "../../components/Popup";
+import { Link } from "react-router-dom";
 import "./InvestorAccountPage.css";
 
 const useStyles = makeStyles((theme) => ({
@@ -119,10 +120,11 @@ const InvestorAccountPage = () => {
                 </div>
                 <div className="header-button">
                   <Button className="contacts-button">Contacts</Button>
-                  <Button className="addfunds-button">Add Funds</Button>
-                  <IconButton>
-                    <ExitToAppOutlined />
-                  </IconButton>
+                  <Link style={{ textDecoration: "none" }} to="/">
+                    <IconButton>
+                      <ExitToAppOutlined />
+                    </IconButton>
+                  </Link>
                 </div>
               </div>
             </Toolbar>
