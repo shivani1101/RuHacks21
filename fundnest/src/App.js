@@ -1,6 +1,5 @@
-import logo from './logo.svg';
+import React from 'react';
 import './App.css';
-import React, { useContext, useEffect } from 'react';
 import {
     BrowserRouter as Router,
     Route,
@@ -9,6 +8,9 @@ import {
 import LandingPage from './pages/LandingPage';
 import InvestorPage from './pages/InvestorPage';
 import CompanyPage from './pages/ComapanyPage';
+import BusinessAccountPage from './pages/BusinessAccountPage';
+import InvestorAccountPage from './pages/InvestorAccountPage'
+
 
 function App() {
   return (
@@ -18,6 +20,8 @@ function App() {
       <Route exact path='/' component={LandingPage} />
         <Route path='/investor-page' component={InvestorPage} />
         <Route path='/company-page' component={CompanyPage} />
+        <Route path='/business-account-page' component={BusinessAccountPage} />
+        <Route path='/investor-account-page' component={InvestorAccountPage} />
       </Switch>
       
     </Router>

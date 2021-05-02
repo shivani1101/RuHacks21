@@ -3,6 +3,7 @@ import "./CompanyPage.css";
 import Logo from "../../assets/Logo.png";
 import { TextField, Button } from "@material-ui/core";
 import { makeStyles } from "@material-ui/core/styles";
+import { Link } from "react-router-dom";
 
 const useStyles = makeStyles((theme) => ({
   root: {
@@ -21,7 +22,7 @@ const CompanyPage = () => {
       <div className="investorpage-header">
         <div className="company-header">
           <h2>FundNest</h2>
-          <img src={Logo} alt='Company Logo'/>
+          <img src={Logo} alt="Company Logo" />
         </div>
         <p>Connecting emerging entrepreneurs to strategic investors</p>
       </div>
@@ -73,7 +74,7 @@ const CompanyPage = () => {
             />
           </div>
           <div>
-          <TextField
+            <TextField
               id="outlined-full-width"
               label="Company Size"
               placeholder="Enter your Company Size"
@@ -95,10 +96,10 @@ const CompanyPage = () => {
             />
           </div>
         </form>
-        <br/>
-        <Button className="investorpage-button">
-            Register
-        </Button>
+        <br />
+        <Link style={{ textDecoration: "none" }} to="/business-account-page">
+          <Button className="investorpage-button">Register</Button>
+        </Link>
       </div>
     </div>
   );

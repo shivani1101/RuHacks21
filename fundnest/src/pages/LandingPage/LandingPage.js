@@ -1,6 +1,6 @@
 import React from "react";
 import { AppBar, Toolbar, Button, Divider } from "@material-ui/core";
-import { PeopleOutline } from "@material-ui/icons";
+import { PeopleOutline, LinkedIn, Facebook, Twitter } from "@material-ui/icons";
 import { Link } from "react-router-dom";
 import "./LandingPage.css";
 
@@ -63,6 +63,11 @@ function LandingPage() {
                 fill="#FAD56B"
               />
             </svg>
+            <div style={{position:'absolute', bottom:'40px', marginLeft:'20px'}}>
+                <Facebook style={{fontSize:'40px', color:'grey'}}/>
+                <LinkedIn style={{fontSize:'40px', color:'grey'}}/>
+                <Twitter style={{fontSize:'40px', color:'grey'}}/>
+            </div>
           </div>
         </div>
       </div>

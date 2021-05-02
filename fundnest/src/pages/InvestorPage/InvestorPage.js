@@ -3,6 +3,7 @@ import "./InvestorPage.css";
 import Logo from "../../assets/Logo.png";
 import { TextField, Button } from "@material-ui/core";
 import { makeStyles } from "@material-ui/core/styles";
+import { Link } from "react-router-dom";
 
 const useStyles = makeStyles((theme) => ({
   root: {
@@ -74,9 +75,11 @@ const InvestorPage = () => {
           </div>
         </form>
         <br/>
-        <Button className="investorpage-button">
-            Register
-        </Button>
+        <Link style={{ textDecoration: "none" }} to="/investor-account-page">
+            <Button className="investorpage-button">
+                Register
+            </Button>
+        </Link>
       </div>
     </div>
   );
