@@ -24,12 +24,6 @@ By matching entrepreneurs to investors, FundNest promotes the growth of early-st
 ## Implementation of FundNest 🔨
 Using ***ReactJS*** as the front-end framework along with the ***MaterialUI*** library, FundNest is an easy to use UI for investors and companies seeking funding. To showcase nearby investors for a company, a version of Google Maps is used with the help of ***Google Maps API***. Additonally, markers on the map correspond with the search results presented to the user which are fetched from a **JSON** that currently stores all "investors" for this early-stage software. 
 
-<div align="center">  
-<img style="margin: 10px" src="https://profilinator.rishav.dev/skills-assets/react-original-wordmark.svg" alt="React" height="50" />    
-<img style="margin: 10px" src="https://profilinator.rishav.dev/skills-assets/css3-original-wordmark.svg" alt="CSS3" height="50" />  
-<img style="margin: 10px" src="https://profilinator.rishav.dev/skills-assets/html5-original-wordmark.svg" alt="HTML5" height="50" />  
-<img style="margin: 10px" src="https://profilinator.rishav.dev/skills-assets/javascript-original.svg" alt="JavaScript" height="50" />  
-<img style="margin: 10px" src="https://profilinator.rishav.dev/skills-assets/git-scm-icon.svg" alt="Git" height="50" />  
 
 ## How to Start the Webapp 💻
 ```bash
