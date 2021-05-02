@@ -1,5 +1,6 @@
 # FundNest
 ### RuHacks21
+![yyz](nestfundimg.png)
 
 ## Problem/Need
 A lack of connections between emerging businesses and investors seeking new investment opportunities. Start-ups, small businesses, and entrepreneurs continuously face difficulty securing funding to finance their business operations and new ideas. The issue is the same for the investing parties, investors do not have the ability to readily browse all the options available for various business investments when they are interested in committing funds. Business entities are uncertain of which investors are interested in funding their operations, whereas investors are forgoing many big and small investment opportunities due to unrecognized fund demand. 
