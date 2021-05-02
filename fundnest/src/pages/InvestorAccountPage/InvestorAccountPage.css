@@ -1,0 +1,9 @@
+.FundInfo{
+    background-color: #83BAC6;
+}
+
+.FundInfo>p{
+    padding-bottom: 15px;
+    text-align: center;
+    font-size: 20px;
+}
