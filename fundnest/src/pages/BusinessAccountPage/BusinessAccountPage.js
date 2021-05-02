@@ -149,7 +149,7 @@ const BusinessAccountPage = () => {
                 data.length &&
                 data.map((company) => {
                   return (
-                    <Card>
+                    <Card style={{border:`2px solid ${company.color}`}}>
                       <CardContent style={{ textAlign: "center" }}>
                         <Typography color="textSecondary" gutterBottom>
                           Name: {company.name}
