@@ -1,0 +1,70 @@
+.landingpage-wrapper{
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+}
+
+.landingpage-second{
+    background-color: #E4E4E4;
+    height: 100vh;
+}
+
+.MuiAppBar-root{
+    height: 25px !important;
+}
+
+.MuiAppBar-colorPrimary{
+    background-color: #3E5B8A !important;
+}
+
+.MuiPaper-elevation4{
+    box-shadow: none !important;
+}
+
+.landingpage-header>h2{
+    color: #40A03E;
+    margin: 80px 50px 0px 50px;
+    text-align: center;
+    font-size: 60px;
+    font-family: serif;
+}
+
+.landingpage-header>p{
+    text-align: center;
+    margin-top: 10px;
+}
+
+.landingpage-button>Button{
+    border: 2px solid #3E5B8A;
+    outline: none;
+    background-color: #fff;
+    padding: 15px 60px 15px 60px;
+    outline: none;
+    box-shadow: none !important;
+}
+
+.MuiButton-contained:focus, 
+.MuiButton-contained:active{
+    box-shadow: none !important;
+}
+
+.landingpage-button{
+    margin: 80px 50px 0px 50px;
+    text-align: center;
+}
+
+.PeopleIcon{
+    font-size: 40px !important;
+    margin: 80px 0 0 20px;
+    color: #EA4335;
+}
+
+.landingpage-quote{
+    text-align: center;
+    color: #3E5B8A;
+    font-size: 18px;
+}
+
+.MoneyHand{
+    font-size: 40px !important;
+    margin: 200px 0 0 20px;
+}

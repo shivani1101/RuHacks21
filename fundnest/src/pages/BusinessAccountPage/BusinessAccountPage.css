@@ -1,0 +1,71 @@
+.header-logo{
+    display: flex;
+}
+
+.header-logo>h2{
+    color: #40A03E;
+    text-align: left;
+    font-size: 30px !important;
+    font-family: serif;
+    margin-top: 30px;
+}
+
+.header-logo>img{
+    height: 70px;
+    margin-top: 6px;
+}
+
+.businesspage-appbar{
+    height: 75px !important;
+}
+
+.businesspage-appbar{
+    background-color: #ffff !important;
+}
+
+.businesspage-main{
+    background-color: #EDECEC !important;
+    display: grid;
+    grid-template-columns: 400px 40px 2fr !important;
+    padding: 30px;
+    padding-top: 100px;
+}
+
+.businesspage-header{
+    display: flex;
+    justify-content: space-between;
+}
+
+.header-button{
+    position: absolute;
+    right: 18px;
+    margin-top: 26px;
+}
+
+.contacts-button{
+    background-color: #FA4D3E !important;
+    color: black;
+    text-transform: none !important;
+    margin-right: 13px !important;
+    padding: 8px 15px 8px 15px !important;
+    border-radius: 40px !important;
+}
+
+.addfunds-button{
+    background-color: #FAD56B !important;
+    color: black;
+    text-transform: none !important;
+    margin-right: 9px !important;
+    padding: 8px 15px 8px 15px !important;
+    border-radius: 40px !important;
+}
+
+/* .MuiPaper-root{
+    background-color: #EDECEC !important;
+} */
+
+.MuiCard-root{
+    background-color: #ffff !important;
+    margin-bottom: 20px !important;
+    margin-right: 8px;
+}

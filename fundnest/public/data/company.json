@@ -1,0 +1,172 @@
+[
+  {
+    "index": 0,
+    "fund": "$5,468.78",
+    "picture": "http://placehold.it/32x32",
+    "age": 36,
+    "color": "blue",
+    "name": "Johnston Myers",
+    "gender": "male",
+    "company": "MEGALL",
+    "email": "johnstonmyers@megall.com",
+    "phone": "+1 (946) 441-3513",
+    "location": "Yorkton, SK",
+    "position": {
+      "lat": 51.213890,
+      "lng": -102.462776
+    }
+  },
+  {
+    "index": 1,
+    "fund": "$3,965.60",
+    "picture": "http://placehold.it/32x32",
+    "age": 34,
+    "color": "brown",
+    "name": "Greene Lester",
+    "gender": "male",
+    "company": "REPETWIRE",
+    "email": "greenelester@repetwire.com",
+    "phone": "+1 (921) 445-3234",
+    "location": "Rivière-du-Loup, QC",
+    "position": {
+      "lat": 47.833332,
+      "lng": -69.533333
+    }
+  },
+  {
+    "index": 2,
+    "fund": "$2,802.11",
+    "picture": "http://placehold.it/32x32",
+    "age": 33,
+    "color": "purple",
+    "name": "Elsie Vincent",
+    "gender": "female",
+    "company": "SURETECH",
+    "email": "elsievincent@suretech.com",
+    "phone": "+1 (993) 585-3001",
+    "location": "Waterloo, ON",
+    "position": {
+      "lat": 43.466667,
+      "lng": -80.516670
+    }
+  },
+  {
+    "index": 3,
+    "fund": "$1,860.20",
+    "picture": "http://placehold.it/32x32",
+    "age": 39,
+    "color": "brown",
+    "name": "Tammie Gamble",
+    "gender": "female",
+    "company": "EPLOSION",
+    "email": "tammiegamble@eplosion.com",
+    "phone": "+1 (907) 484-3810",
+    "location": "Campbellton, NB",
+    "position": {
+      "lat": 48.005001,
+      "lng": -66.673058
+    }
+  },
+  {
+    "index": 4,
+    "fund": "$3,394.83",
+    "picture": "http://placehold.it/32x32",
+    "age": 34,
+    "color": "brown",
+    "name": "Reba Glenn",
+    "gender": "female",
+    "company": "TROLLERY",
+    "email": "rebaglenn@trollery.com",
+    "phone": "+1 (955) 457-3363",
+    "location": "St. Albert, AB",
+    "position": {
+      "lat": 53.630280,
+      "lng": -113.625832
+    }
+  }, 
+  {
+    "index": 5,
+    "fund": "$2,657.54",
+    "picture": "http://placehold.it/32x32",
+    "age": 28,
+    "color": "orange",
+    "name": "Spears Mccoy",
+    "gender": "male",
+    "company": "MIRACLIS",
+    "email": "spearsmccoy@miraclis.com",
+    "phone": "+1 (864) 566-2726",
+    "location": "Langford, BC",
+    "position": {
+      "lat": 48.450558,
+      "lng": -123.505836
+    }
+  },
+  {
+    "index": 6,
+    "fund": "$9,966.28",
+    "picture": "http://placehold.it/32x32",
+    "age": 20,
+    "color": "orange",
+    "name": "Miranda Edwards",
+    "gender": "male",
+    "company": "TERRAGEN",
+    "email": "mirandaedwards@terragen.com",
+    "phone": "+1 (857) 423-3606",
+    "location": "Winnipeg, MB",
+    "position": {
+      "lat": 49.895077,
+      "lng":-97.138451
+    }
+  },
+  {
+    "index": 7,
+    "fund": "$2,875.26",
+    "picture": "http://placehold.it/32x32",
+    "age": 22,
+    "color": "blue",
+    "name": "Neal Stafford",
+    "gender": "male",
+    "company": "KONNECT",
+    "email": "nealstafford@konnect.com",
+    "phone": "+1 (844) 493-3235",
+    "location": "Burlington, ON",
+    "position": {
+      "lat": 43.328674,
+      "lng": -79.817734
+    }
+  },
+  {
+    "index": 8,
+    "fund": "$4,591.57",
+    "picture": "http://placehold.it/32x32",
+    "age": 34,
+    "color": "purple",
+    "name": "Hancock Finch",
+    "gender": "male",
+    "company": "JAMNATION",
+    "email": "hancockfinch@jamnation.com",
+    "phone": "+1 (938) 447-3342",
+    "location": "Sydney, NS",
+    "position": {
+      "lat": 46.138927,
+      "lng": -60.193233
+    }
+  },
+  {
+    "index": 9,
+    "fund": "$7,979.30",
+    "picture": "http://placehold.it/32x32",
+    "age": 34,
+    "color": "purple",
+    "name": "Gray Knapp",
+    "gender": "male",
+    "company": "EYERIS",
+    "email": "grayknapp@eyeris.com",
+    "phone": "+1 (913) 412-3824",
+    "location": "Dégelis, QC",
+    "position": {
+      "lat": 47.549999,
+      "lng": -68.650002
+    }
+  }
+]

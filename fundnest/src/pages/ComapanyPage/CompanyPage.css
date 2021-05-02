@@ -1,0 +1,41 @@
+.company-header{
+    display: flex;
+    margin: 20px 0px 0px 50px;
+    justify-content: center;
+}
+
+.company-header>h2{
+    color: #40A03E;
+    text-align: center;
+    font-size: 50px !important;
+    font-family: serif;
+}
+
+.company-header>img{
+    margin-top: -40px;
+}
+
+.investorpage-header>p{
+    text-align: center;
+    margin-top: -10px;
+    font-size: 20px;
+}
+
+.welcome-message{
+    text-align: center;
+    color: #3E5B8A;
+    font-size: 30px;
+}
+
+.investorpage-button{
+
+    border: none !important;
+    border-radius: 0px !important;
+    outline: none;
+    background-color: #364B6C !important;
+    color: #ffff !important;
+    padding: 15px 60px 15px 60px !important;
+    outline: none;
+    text-transform: none !important;
+    box-shadow: none !important;
+}
