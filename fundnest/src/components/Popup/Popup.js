@@ -3,7 +3,7 @@ import { Card, CardContent, Typography } from "@material-ui/core";
 
 const Popup = ({ props, division }) => {
   return (
-    <Card>
+    <Card style={{border:`2px solid ${props.color}`}}>
       <CardContent style={{ textAlign: "center" }}>
         <Typography style={{ color: "black" }} gutterBottom>
           Name: {props.name}
